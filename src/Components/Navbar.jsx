@@ -11,3 +11,4 @@ const Navbar = () => {
 export default Navbar;
 
 //This is a smiple comment 
+//adding another comment 
