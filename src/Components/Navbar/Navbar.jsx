@@ -5,7 +5,6 @@ import {
   FaInstagramSquare,
   FaLinkedin,
 } from "react-icons/fa";
-import { HighQuality } from "@material-ui/icons";
 
 const Navbar = () => {
   return (
@@ -37,17 +36,17 @@ const Navbar = () => {
           <ul className="socila-media-desktop">
             <li>
               <a href="#" target="_blank">
-                <FaFacebookSquare />
+                <FaFacebookSquare className="facebook" />
               </a>
             </li>
             <li>
               <a href="#" target="_blank">
-                <FaInstagramSquare />
+                <FaInstagramSquare className="instagram" />
               </a>
             </li>
             <li>
               <a href="#" target="_blank">
-                <FaLinkedin />
+                <FaLinkedin className="linkedin" />
               </a>
             </li>
           </ul>
@@ -63,6 +62,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-//This is a smiple comment
-//adding another comment
