@@ -6,30 +6,30 @@ import jobs from "../src/images/jobs.jpeg";
 import place from "../src/images/places.jpeg";
 
 const Sdata = [
-    {
-        imgsrc: school,
-        title: "School Information",
-    },
-    {
-        imgsrc: house,
-        title: "Housing Information",
-    },
-    {
-        imgsrc: bank,
-        title: "Bank Information",
-    },
-    {
-        imgsrc: communite,
-        title: "Build Communite",
-    },
-    {
-        imgsrc: jobs,
-        title: "Jobs In Tampere",
-    },
-    {
-        imgsrc: place,
-        title: "Places to Visit",
-    },
-]
+  {
+    imgsrc: school,
+    title: "School Information",
+  },
+  {
+    imgsrc: house,
+    title: "Housing Information",
+  },
+  {
+    imgsrc: bank,
+    title: "Bank Information",
+  },
+  {
+    imgsrc: communite,
+    title: "Build Communite",
+  },
+  {
+    imgsrc: jobs,
+    title: "Jobs In Tampere",
+  },
+  {
+    imgsrc: place,
+    title: "Places to Visit",
+  },
+];
 
 export default Sdata;
