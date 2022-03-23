@@ -10,9 +10,9 @@ const Card = (props) => {
           <img src={props.imgsrc} Class="card-img-top" alt={props.imgsrc} />
           <div Class="card-body">
             <h5 Class="card-title font-weight-bold">{props.title}</h5>
-            <p Class="card-text">Some cards</p>
+            <p Class="card-text"></p>
             <NavLink to="#" Class="btn btn-primary">
-              Go somewhere
+              Open Info
             </NavLink>
           </div>
         </div>
