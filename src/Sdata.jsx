@@ -1,9 +1,9 @@
-import school from "../src/images/portfolio0.jpg";
-import house from "./images/portfolio1.jpg";
-import bank from "../src/images/portfolio02.png";
-import communite from "../src/images/portfolio3.jpg";
-import jobs from "../src/images/portfolio03.png";
-import place from "../src/images/portfolio04.png";
+import school from "../src/images/university.jpeg";
+import house from "./images/housing.jpeg";
+import bank from "../src/images/bank.jpeg";
+import communite from "../src/images/Communities.jpeg";
+import jobs from "../src/images/jobs.jpeg";
+import place from "../src/images/places.jpeg";
 
 const Sdata = [
     {

@@ -16,7 +16,14 @@ const Common = (props) => {
                 {props.name} <strong className="brand-name"> Fiversity </strong>
               </h1>
               <h2 className="my-3">
-                Some lines where
+              This is a go to web page for students who are coming to 
+              Tampere to start their student life .The website is a 
+              info tool for the students to get the required information 
+              about evrything that one student need while starting their 
+              life in a new city .The website contains various info about 
+              admission process ,Programme available , Clubs in different 
+              universities and also the related things to get started in 
+              city of Tampere .
               </h2>
               <div className="mt-3">
               <NavLink to={props.visit} className="btn-get-started">

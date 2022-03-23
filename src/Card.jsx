@@ -1,5 +1,5 @@
 import React from "react";
-import web from "./images/portfolio1.jpg"
+import web from "./images/housing.jpeg"
 import { NavLink } from "react-router-dom";
 
 
@@ -11,9 +11,7 @@ const Card = (props) => {
                   <img src={props.imgsrc} Class="card-img-top" alt={props.imgsrc} />
                     <div Class="card-body">
                       <h5 Class="card-title font-weight-bold">{props.title}</h5>
-                        <p Class="card-text">Some quick example 
-                        text to build on the card title and make up 
-                        the bulk of the card's content.</p>
+                        <p Class="card-text">Some cards</p>
                         <NavLink to="#" Class="btn btn-primary">Go somewhere</NavLink>
                     </div>
                   </div>
