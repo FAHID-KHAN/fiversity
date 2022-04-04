@@ -1,9 +1,9 @@
 import React from "react";
 
-import web from "../src/images/homepage2.jpeg";
-import {NavLink} from "react-router-dom";
+import web from "../images/homepage2.jpeg";
+import { NavLink } from "react-router-dom";
 
-import Common from "./common";
+import Common from "../common";
 
 const About = () => {
   return (

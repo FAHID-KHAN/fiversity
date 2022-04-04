@@ -1,11 +1,11 @@
 import React from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
-import Home from "./Home";
-import About from "./About";
-import Service from "./Service";
-import Contact from "./Contact";
-import Footer from "./Footer";
+import Home from "./Components/Home";
+import About from "./Components/About";
+import Service from "./Components/Service";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 import {Route, Switch, Redirect} from "react-router-dom";
 import Navbar from "./Navbar";
 
