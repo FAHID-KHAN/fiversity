@@ -9,6 +9,7 @@ const Sdata = [
   {
     imgsrc: school,
     title: "School Information",
+  
   },
   {
     imgsrc: house,
