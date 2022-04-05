@@ -66,6 +66,15 @@ const Navbar = () => {
                         Contact
                       </NavLink>
                     </li>
+                    <li className="nav-item">
+                      <NavLink
+                        activeClassName="menu-active"
+                        className="nav-link"
+                        to="/ThingsToSee"
+                      >
+                        Things To See
+                      </NavLink>
+                    </li>
                   </ul>
                 </div>
               </div>

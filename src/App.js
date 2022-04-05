@@ -7,6 +7,7 @@ import Service from "./Components/Service";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import {Route, Switch, Redirect} from "react-router-dom";
+import ThingsToSee  from "./Components/ThingsToSee";
 import Navbar from "./Navbar";
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       <Route exact path="/about"  component={About} />
       <Route exact path="/service"  component={Service} />
       <Route exact path="/contact"  component={Contact} />
+      <Route exact path="/ThingsToSee" component={ThingsToSee}/>
       <Redirect to="/" />
       <Home />
     </Switch>
