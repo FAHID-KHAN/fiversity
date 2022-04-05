@@ -1,54 +1,52 @@
 import React from "react";
-
+import axios from "axios";
 import { Row, Col, Card } from "react-bootstrap";
-import { useEffect, useState } from "react/cjs/react.production.min";
 
-const ThingsToSee = () => {
-  const [place, setPlace] = useState([]);
-  const getPlaces = async () => {
-    const url =
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=Aap_uEA7vb0DDYVJWEaX3O-AtYp77AaswQKSGtDaimt3gt7QCNpdjp1BkdM6acJ96xTec3tsV_ZJNL_JP-lqsVxydG3nh739RE_hepOOL05tfJh2_ranjMadb3VoBYFvF0ma6S24qZ6QJUuV6sSRrhCskSBP5C1myCzsebztMfGvm7ij3gZT&key=AIzaSyCBdlR9aoETRtX07DhPm52A5aZTIrAiey0";
-    const response = await fetch(url);
-    try {
-      const responseJson = await response.json();
-      const data = responseJson.results;
-      setPlace(data);
-    } catch (err) {
-      console.error(err);
-    }
-  };
-  useEffect(() => {
-    getPlaces();
-  }, []);
+export default class ThingsToSee extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      city: "Tampere",
+      placeSuggestions: [],
+    };
+  }
+  componentDidMount() {
+    let getPlaceSuggestions = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=things-to-see-${this.state.city}&key=AIzaSyB6wWNi-K-Mq8RM0NpVM0P8VbyyS7HjT7E`;
+    axios.all([axios.get(getPlaceSuggestions)]).then(
+      axios.spread((places) => {
+        this.setState({ placeSuggestions: places.data.results });
+      })
+    );
+  }
 
-  return (
-    <div style={{ marginTop: "50px" }}>
-      <h2 style={{ color: "white", padding: "10px" }}>
-        Things To See in Tampere
-      </h2>
-      <Row>
-        {place.map((places) => {
-          return (
-            <Col>
-              <Card
-                style={{ width: "18rem", margin: "10px", minHeight: "400px" }}
-              >
-                <Card.Img
-                  variant="top"
-                  style={{ height: "200px" }}
-                  src={`https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=${place.photos[0].photo_reference}&key=AIzaSyCBdlR9aoETRtX07DhPm52A5aZTIrAiey0`}
-                />
-                <Card.Body>
-                  <Card.Title>{places.name}</Card.Title>
-                  <Card.Text>{places.formatted_address}</Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-          );
-        })}
-      </Row>
-    </div>
-  );
-};
-
-export default ThingsToSee;
+  render() {
+    return (
+      <div style={{ marginTop: "50px" }}>
+        <h2 style={{ color: "Blues", padding: "10px", textAlign: "center" }}>
+          Things To See in {this.state.city}
+        </h2>
+        <Row>
+          {this.state.placeSuggestions.map((place) => {
+            return (
+              <Col>
+                <Card
+                  style={{ width: "18rem", margin: "10px", minHeight: "100px" }}
+                >
+                  <Card.Img
+                    variant="top"
+                    style={{ height: "50px" }}
+                    src={`https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=${place.photos[0].photo_reference}&key=AIzaSyB6wWNi-K-Mq8RM0NpVM0P8VbyyS7HjT7E`}
+                  />
+                  <Card.Body>
+                    <Card.Title>{place.name}</Card.Title>
+                    <Card.Text>{place.formatted_address}</Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+            );
+          })}
+        </Row>
+      </div>
+    );
+  }
+}
