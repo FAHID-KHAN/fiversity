@@ -13,9 +13,11 @@ export default class ThingsToSee extends React.Component {
   }
   componentDidMount() {
     let getPlaceSuggestions = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=things-to-see-${this.state.city}&key=${process.env.REACT_APP_MAP_API_KEY}`;
-    axios.all([axios.get(getPlaceSuggestions)]).then(
+    console.log(getPlaceSuggestions);
+    axios.get(getPlaceSuggestions).then(
       axios.spread((places) => {
         this.setState({ placeSuggestions: places.data.results });
+        console.log(this.state.placeSuggestions);
       })
     );
   }
@@ -24,7 +26,7 @@ export default class ThingsToSee extends React.Component {
     return (
       <div style={{ marginTop: "50px" }}>
         <h2 style={{ color: "Blues", padding: "10px", textAlign: "center" }}>
-          Things To See in {process.env.REACT_APP_MOOVIE_API}
+          Things To See in {this.state.city}
         </h2>
         <Row>
           {this.state.placeSuggestions.map((place) => {
@@ -36,7 +38,7 @@ export default class ThingsToSee extends React.Component {
                   <Card.Img
                     variant="top"
                     style={{ height: "50px" }}
-                    src={`https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=${place.photos[0].photo_reference}&key=AIzaSyB6wWNi-K-Mq8RM0NpVM0P8VbyyS7HjT7E`}
+                    // src={`https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=photo_reference&key=${process.env.REACT_APP_MAP_API_KEY}`}
                   />
                   <Card.Body>
                     <Card.Title>{place.name}</Card.Title>
