@@ -7,12 +7,12 @@ export default class ThingsToSee extends React.Component {
     super(props);
     this.state = {
       city: "Tampere",
-      api: process.env.REACT_APP_MAP_API_KEY,
+
       placeSuggestions: [],
     };
   }
   componentDidMount() {
-    let getPlaceSuggestions = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=things-to-see-${this.state.city}&key=${this.state.api}`;
+    let getPlaceSuggestions = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=things-to-see-${this.state.city}&key=${process.env.REACT_APP_MAP_API_KEY}`;
     axios.all([axios.get(getPlaceSuggestions)]).then(
       axios.spread((places) => {
         this.setState({ placeSuggestions: places.data.results });
