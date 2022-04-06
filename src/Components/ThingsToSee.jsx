@@ -7,11 +7,12 @@ export default class ThingsToSee extends React.Component {
     super(props);
     this.state = {
       city: "Tampere",
+      api: process.env.REACT_APP_MAP_API_KEY,
       placeSuggestions: [],
     };
   }
   componentDidMount() {
-    let getPlaceSuggestions = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=things-to-see-${this.state.city}&key=AIzaSyB6wWNi-K-Mq8RM0NpVM0P8VbyyS7HjT7E`;
+    let getPlaceSuggestions = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=things-to-see-${this.state.city}&key=${this.state.api}`;
     axios.all([axios.get(getPlaceSuggestions)]).then(
       axios.spread((places) => {
         this.setState({ placeSuggestions: places.data.results });
@@ -23,7 +24,7 @@ export default class ThingsToSee extends React.Component {
     return (
       <div style={{ marginTop: "50px" }}>
         <h2 style={{ color: "Blues", padding: "10px", textAlign: "center" }}>
-          Things To See in {this.state.city}
+          Things To See in {process.env.REACT_APP_MOOVIE_API}
         </h2>
         <Row>
           {this.state.placeSuggestions.map((place) => {
