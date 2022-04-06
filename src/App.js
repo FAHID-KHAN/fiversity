@@ -8,6 +8,7 @@ import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import {Route, Switch, Redirect} from "react-router-dom";
 import PlacesToSee  from "./Components/PlacesToSee";
+import PlacesToEat from "./Components/PlacesToEat";
 import Navbar from "./Navbar";
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
       <Route exact path="/service"  component={Service} />
       <Route exact path="/contact"  component={Contact} />
       <Route exact path="/PlacesToSee" component={PlacesToSee}/>
+      <Route exact path="/PlacesToEat" component={PlacesToEat}/>
       <Redirect to="/" />
       <Home />
     </Switch>
