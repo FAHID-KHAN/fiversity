@@ -70,9 +70,9 @@ const Navbar = () => {
                       <NavLink
                         activeClassName="menu-active"
                         className="nav-link"
-                        to="/ThingsToSee"
+                        to="/PlacesToSee"
                       >
-                        Things To See
+                        Explore
                       </NavLink>
                     </li>
                   </ul>

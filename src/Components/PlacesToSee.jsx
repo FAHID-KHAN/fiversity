@@ -2,12 +2,11 @@ import React from "react";
 import axios from "axios";
 import { Row, Col, Card } from "react-bootstrap";
 
-export default class ThingsToSee extends React.Component {
+export default class PlacesToSee extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       city: "Tampere",
-
       placeSuggestions: [],
     };
   }
