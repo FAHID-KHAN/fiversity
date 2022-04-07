@@ -1,32 +1,36 @@
 import React from "react";
-export default class Schoolinfo extends React.Component {
-  state = {
-    loading: true,
-    person: null
-  };
+import building from './sisu_building.json'
+import 'bootstrap/dist/css/bootstrap.css';
+import ListGroup from 'react-bootstrap/ListGroup';
+import ListGroupItem from "react-bootstrap/esm/ListGroupItem";
+import Common from "../common";
 
-  async componentDidMount() {
-    const url = "#";
-    const response = await fetch(url);
-    const data = await response.json();
-    this.setState({ person: data.results[0], loading: false });
-  }
 
-  render() {
-    if (this.state.loading) {
-      return <div>loading...</div>;
-    }
-
-    if (!this.state.person) {
-      return <div>didn't get a person</div>;
-    }
-
+const Schoolinfo = () => {
     return (
       <div>
-        <div>{this.state.person.name.title}</div>
+                <div Class="col-md-4 col-10 mx-auto">
+         <h1> Tamperer University locations</h1>           
+          
+ { building.map(schoolinfo =>{
+    return(
+          <ListGroup>
+                <ListGroup.Item>{ schoolinfo.name.fi}</ListGroup.Item>
+             <ListGroup.Item>{ schoolinfo.address.streetAddress}</ListGroup.Item>
+          </ListGroup>
+    
+     
 
-        <img src={this.state.person.picture.large} />
-      </div>
-    );
-  }
-}
+        
+    )
+ })
+       
+ }
+
+</div>
+ </div>
+      );
+    };
+
+    export default Schoolinfo;
+    
