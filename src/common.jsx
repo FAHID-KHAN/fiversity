@@ -1,9 +1,7 @@
 import React from "react";
 
 import web from "../src/images/homepage1.webp";
-import {NavLink} from "react-router-dom";
-
-
+import { NavLink } from "react-router-dom";
 
 const Common = (props) => {
   return (
