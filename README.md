@@ -16,6 +16,6 @@
 6. The new API key is listed on the Credentials page under API keys.
    ** (Remember to restrict the API key before using it in production.) **
 
-#### After getting the api go to your root directory and save it on .env on your ptoject folder and run the project to see what has been done .
+#### After getting the api go to your root directory and save it on .env on your project folder and run the project to see what has been done .
 
 #### The project has been under supervision of Tampere University Of Applied Sciences and any possible that has been showed or information regrading course curriculams or units has been taken from **opendata.tuni.fi**
