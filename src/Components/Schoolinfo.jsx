@@ -7,6 +7,7 @@ import Common from "../common";
 
 
 const Schoolinfo = () => {
+ 
     return (
       <div>
                 <div Class="col-md-4 col-10 mx-auto">

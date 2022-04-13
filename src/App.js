@@ -9,6 +9,7 @@ import Footer from "./Components/Footer";
 import {Route, Switch, Redirect} from "react-router-dom";
 import Navbar from "./Navbar";
 import Schoolinfo from "./Components/Schoolinfo";
+import Curriculum from "./Components/Curriculum";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Route exact path="/service"  component={Service} />
       <Route exact path="/contact"  component={Contact} />
       <Route exact path="/schoolinfo"  component={Schoolinfo} />
+      <Route exact path="/curriculum"  component={Curriculum} />
       <Redirect to="/" />
       <Home />
     </Switch>
