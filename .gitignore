@@ -10,7 +10,7 @@
 
 
 #API_KEYS
-.env
+
 
 # production
 /build
