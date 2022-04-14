@@ -3,7 +3,7 @@ import axios from "axios";
 import { Row, Col, Card } from "react-bootstrap";
 
 export default function PlacesToEat() {
-  const [resturants, setResturants] = useState([]);
+  const [resturants, setResturants] = useState(null);
   useEffect(() => {
     let getResturantSuggetions = `/maps/api/place/textsearch/json?query=resturants-in-Tampere&key=${process.env.REACT_APP_MAP_API_KEY}`;
     console.log(getResturantSuggetions);
@@ -12,38 +12,39 @@ export default function PlacesToEat() {
     });
   }, []);
 
+  const renderPlacesToSee = () => {
+    if (resturants && resturants.length && resturants.length > 0) {
+      return resturants.map((resturant) => {
+        return (
+          <Col>
+            <Card
+              style={{
+                width: "18rem",
+                margin: "10px",
+                minHeight: "100px",
+              }}
+            >
+              <Card.Img
+                variant="top"
+                style={{ height: "200px" }}
+                src={`https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=${resturant.photos[0].photo_reference}&key=${process.env.REACT_APP_MAP_API_KEY}`}
+              />
+              <Card.Body>
+                <Card.Title>{resturant.name}</Card.Title>
+                <Card.Text>{resturant.formatted_address}</Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        );
+      });
+    } else return <div> No Places to See!</div>;
+  };
   return (
     <div style={{ marginTop: "50px" }}>
       <h2 style={{ color: "Blues", padding: "10px", textAlign: "center" }}>
         Resturant to explore in Tampere
       </h2>
-      <Row>
-        {resturants.length > 0
-          ? resturants.map((resturant) => {
-              return (
-                <Col>
-                  <Card
-                    style={{
-                      width: "18rem",
-                      margin: "10px",
-                      minHeight: "100px",
-                    }}
-                  >
-                    <Card.Img
-                      variant="top"
-                      style={{ height: "200px" }}
-                      src={`https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=${resturant.photos[0].photo_reference}&key=${process.env.REACT_APP_MAP_API_KEY}`}
-                    />
-                    <Card.Body>
-                      <Card.Title>{resturant.name}</Card.Title>
-                      <Card.Text>{resturant.formatted_address}</Card.Text>
-                    </Card.Body>
-                  </Card>
-                </Col>
-              );
-            })
-          : "No place information available."}
-      </Row>
+      <Row>{renderPlacesToSee()}</Row>
     </div>
   );
 }
