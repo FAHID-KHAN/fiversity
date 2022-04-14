@@ -26,25 +26,31 @@ export default class PlacesToEat extends React.Component {
           Resturant to explore in {this.state.city}
         </h2>
         <Row>
-          {this.state.resturants.map((resturant) => {
-            return (
-              <Col>
-                <Card
-                  style={{ width: "18rem", margin: "10px", minHeight: "100px" }}
-                >
-                  <Card.Img
-                    variant="top"
-                    style={{ height: "200px" }}
-                    src={`https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=${resturant.photos[0].photo_reference}&key=${process.env.REACT_APP_MAP_API_KEY}`}
-                  />
-                  <Card.Body>
-                    <Card.Title>{resturant.name}</Card.Title>
-                    <Card.Text>{resturant.formatted_address}</Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
-            );
-          })}
+          {this.state.resturants.length > 0
+            ? this.state.map((resturant) => {
+                return (
+                  <Col>
+                    <Card
+                      style={{
+                        width: "18rem",
+                        margin: "10px",
+                        minHeight: "100px",
+                      }}
+                    >
+                      <Card.Img
+                        variant="top"
+                        style={{ height: "200px" }}
+                        src={`https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=${resturant.photos[0].photo_reference}&key=${process.env.REACT_APP_MAP_API_KEY}`}
+                      />
+                      <Card.Body>
+                        <Card.Title>{resturant.name}</Card.Title>
+                        <Card.Text>{resturant.formatted_address}</Card.Text>
+                      </Card.Body>
+                    </Card>
+                  </Col>
+                );
+              })
+            : "No place information available."}
         </Row>
       </div>
     );
