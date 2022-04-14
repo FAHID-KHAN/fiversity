@@ -27,7 +27,7 @@ export default class PlacesToEat extends React.Component {
         </h2>
         <Row>
           {this.state.resturants.length > 0
-            ? this.state.map((resturant) => {
+            ? this.state.resturants.map((resturant) => {
                 return (
                   <Col>
                     <Card
