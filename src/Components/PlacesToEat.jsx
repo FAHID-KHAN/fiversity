@@ -5,7 +5,7 @@ import { Row, Col, Card } from "react-bootstrap";
 export default function PlacesToEat() {
   const [resturants, setResturants] = useState(null);
   useEffect(() => {
-    let getResturantSuggetions = `/maps/api/place/textsearch/json?query=resturants-in-Tampere&key=${process.env.REACT_APP_MAP_API_KEY}`;
+    let getResturantSuggetions = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=resturants-in-Tampere&key=${process.env.REACT_APP_MAP_API_KEY}`;
     console.log(getResturantSuggetions);
     axios.get(getResturantSuggetions).then((res) => {
       setResturants(res.data.results);
@@ -13,7 +13,7 @@ export default function PlacesToEat() {
   }, []);
 
   const renderPlacesToSee = () => {
-    if (resturants && resturants.length && resturants.length > 0) {
+    if (resturants) {
       return resturants.map((resturant) => {
         return (
           <Col>
