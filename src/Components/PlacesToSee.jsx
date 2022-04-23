@@ -34,7 +34,7 @@ export default class PlacesToSee extends React.Component {
                   <Card.Img
                     variant="top"
                     style={{ height: "200px" }}
-                    src={`https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=${place.photos[0].photo_reference}&key=${process.env.REACT_APP_MAP_API_KEY}`}
+                    src={`https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=${place.photos[0].photo_reference}&key=${process.env.REACT_APP_MAP_API_KEY}`}
                   />
                   <Card.Body>
                     <Card.Title>{place.name}</Card.Title>
