@@ -5,7 +5,7 @@ import { Row, Col, Card } from "react-bootstrap";
 export default function PlacesToEat() {
   const [resturants, setResturants] = useState(null);
   useEffect(() => {
-    let getResturantSuggetions = `https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/textsearch/json?query=resturants-in-Tampere&key=${process.env.REACT_APP_MAP_API_KEY}`;
+    let getResturantSuggetions = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=resturants-in-Tampere&key=${process.env.REACT_APP_MAP_API_KEY}`;
     console.log(getResturantSuggetions);
     axios.get(getResturantSuggetions).then((res) => {
       setResturants(res.data.results);
@@ -27,7 +27,7 @@ export default function PlacesToEat() {
               <Card.Img
                 variant="top"
                 style={{ height: "200px" }}
-                src={`https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=${resturant.photos[0].photo_reference}&key=${process.env.REACT_APP_MAP_API_KEY}`}
+                src={`https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=${resturant.photos[0].photo_reference}&key=${process.env.REACT_APP_MAP_API_KEY}`}
               />
               <Card.Body>
                 <Card.Title>{resturant.name}</Card.Title>
