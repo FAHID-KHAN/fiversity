@@ -4,34 +4,69 @@ import 'bootstrap/dist/css/bootstrap.css';
 import ListGroup from 'react-bootstrap/ListGroup';
 import ListGroupItem from "react-bootstrap/esm/ListGroupItem";
 import Common from "../common";
+import { Row, Col, Card } from "react-bootstrap";
 
 
 const Schoolinfo = () => {
  
     return (
-      <div>
-                <div Class="col-md-4 col-10 mx-auto">
-         <h1> Tamperer University locations</h1>           
-          
- { building.map(schoolinfo =>{
-    return(
-          <ListGroup>
-                <ListGroup.Item>{ schoolinfo.name.fi}</ListGroup.Item>
-             <ListGroup.Item>{ schoolinfo.address.streetAddress}</ListGroup.Item>
-          </ListGroup>
-    
-     
 
-        
-    )
- })
+
+
+
+         <div>
+            <div style={{ marginTop: "50px" }}>
+         <h2 style={{ color: "Blues", padding: "10px", textAlign: "center" }}>
+         Tamperer University locations
+         </h2>
+ 
+ <Row>
+ 
+ 
+             
+         { building.map(schoolinfo =>{
+            return(
+             <Col>
+             <Card border="light"
+               style={{
+                 width: "18rem",
+                 margin: "10px",
+                 minHeight: "100px",
+               }}
+             >
+
+            
+                 <Card.Header>{schoolinfo.name.fi}</Card.Header>
+                 <Card.Body>
+                 <Card.Text>{ schoolinfo.address.streetAddress}</Card.Text>
+                 <Card.Text>{schoolinfo.address.postalCode}</Card.Text>
+                 <Card.Text>{schoolinfo.address.city}</Card.Text>
+              
+               </Card.Body>
+             </Card>
+           </Col>
+           
+       );
+    })}
+    </Row>
+   
+   </div>
+    </div>
+         );
+         
+       };
        
- }
 
-</div>
- </div>
-      );
-    };
 
+
+
+
+
+
+
+
+
+
+   
     export default Schoolinfo;
     

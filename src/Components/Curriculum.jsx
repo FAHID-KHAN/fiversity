@@ -2,11 +2,14 @@
 
 
   import React from "react";
-  import subject from './curriculum.json'
+  import subject from './tunicurriculum.json'
   import 'bootstrap/dist/css/bootstrap.css';
   import ListGroup from 'react-bootstrap/ListGroup';
   import ListGroupItem from "react-bootstrap/esm/ListGroupItem";
+  import { Row, Col, Card } from "react-bootstrap";
+
   import Common from "../common";
+  
   
   
   const Curriculum = () => {
@@ -14,35 +17,52 @@
  
    
       return (
+
         <div>
-           <div Class="col-md-4 col-10 mx-auto">
-           <h1> Tamperer University Curriculum</h1>           
+           <div style={{ marginTop: "50px" }}>
+        <h2 style={{ color: "Blues", padding: "10px", textAlign: "center" }}>
+          Tampere University Curriculum 
+        </h2>
+
+<Row>
+
+
             
         { subject.map(curriculum =>{
            return(
-            <ListGroup>
-                  <ListGroup.Item>
-                    <h4>Name: {curriculum.name}</h4>
-                    <p>ID: {curriculum.id}</p>
-                    <p>Type: {curriculum.type}</p>
-                    <p>Credits: {curriculum.credits}</p>
-                    <p>Code: {curriculum.code}</p>
-                  </ListGroup.Item>
-                 
-            </ListGroup>
-      
+            <Col>
+            <Card   border="light"
+              style={{
+                width: "18rem",
+                margin: "10px",
+                minHeight: "100px",
+              
+              }}
+            >
+
+              <Card.Header >{curriculum.name}</Card.Header>
        
-  
+              <Card.Body>
+               
+                <Card.Text>ID: {curriculum.id}</Card.Text>
+                <Card.Text>Study type: {curriculum.type}</Card.Text>
+                <Card.Text>Total credits: {curriculum.credits}</Card.Text>
+                <Card.Text>Course code: {curriculum.code}</Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
           
-      )
-   })
-         
-   }
+      );
+   })}
+   </Row>
   
   </div>
    </div>
         );
+        
       };
+      
   
       export default Curriculum;
+      
       
