@@ -4,11 +4,13 @@ import bank from "../images/bank.jpeg";
 import communite from "../images/Communities.jpeg";
 import jobs from "../images/jobs.jpeg";
 import place from "../images/places.jpeg";
+import Curriculum from "./Curriculum";
 
 const Sdata = [
   {
     imgsrc: school,
     title: "School Information",
+    link: "/curriculum",
   },
   {
     imgsrc: house,

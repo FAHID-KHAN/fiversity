@@ -1,0 +1,330 @@
+[
+    {
+      "metadata": {
+        "createdOn": "2019-04-03T13:27:22.301",
+        "lastModifiedOn": "2019-04-03T13:27:22.301",
+        "modificationOrdinal": 130978746
+      },
+      "documentState": "ACTIVE",
+      "id": "tuni-building-arvo",
+      "name": {
+        "fi": "ARVO"
+      },
+      "address": {
+        "countryUrn": "urn:code:country:246",
+        "isUserEditable": false,
+        "streetAddress": "Arvo Ylpön katu 34",
+        "postalCode": "33520",
+        "city": "Tampere",
+        "type": "FinnishAddress"
+      }
+    },
+    {
+      "metadata": {
+        "createdOn": "2019-04-03T13:27:22.303",
+        "lastModifiedOn": "2019-04-03T13:27:22.303",
+        "modificationOrdinal": 130978747
+      },
+      "documentState": "ACTIVE",
+      "id": "tuni-building-atalpa",
+      "name": {
+        "fi": "ATALPA"
+      },
+      "address": {
+        "countryUrn": "urn:code:country:246",
+        "isUserEditable": false,
+        "streetAddress": "Ratapihankatu 55",
+        "postalCode": "33100",
+        "city": "Tampere",
+        "type": "FinnishAddress"
+      }
+    },
+    {
+      "metadata": {
+        "createdOn": "2019-04-03T13:27:22.305",
+        "lastModifiedOn": "2019-04-03T13:27:22.305",
+        "modificationOrdinal": 130978748
+      },
+      "documentState": "ACTIVE",
+      "id": "tuni-building-festia",
+      "name": {
+        "fi": "FESTIA"
+      },
+      "address": {
+        "countryUrn": "urn:code:country:246",
+        "isUserEditable": false,
+        "streetAddress": "Korkeakoulunkatu 8",
+        "postalCode": "33720",
+        "city": "Tampere",
+        "type": "FinnishAddress"
+      }
+    },
+   
+    {
+      "metadata": {
+        "createdOn": "2019-04-03T13:27:22.306",
+        "lastModifiedOn": "2019-04-03T13:27:22.306",
+        "modificationOrdinal": 130978749
+      },
+      "documentState": "ACTIVE",
+      "id": "tuni-building-kampusareena",
+      "name": {
+        "fi": "KAMPUSAREENA"
+      },
+      "address": {
+        "countryUrn": "urn:code:country:246",
+        "isUserEditable": false,
+        "streetAddress": "Korkeakoulunkatu 7",
+        "postalCode": "33720",
+        "city": "Tampere",
+        "type": "FinnishAddress"
+      }
+    },
+    
+    {
+      "metadata": {
+        "createdOn": "2019-04-03T13:27:22.310",
+        "lastModifiedOn": "2019-04-03T13:27:22.310",
+        "modificationOrdinal": 130978785
+      },
+      "documentState": "ACTIVE",
+      "id": "tuni-building-konetalo",
+      "name": {
+        "fi": "KONETALO"
+      },
+      "address": {
+        "countryUrn": "urn:code:country:246",
+        "isUserEditable": false,
+        "streetAddress": "Korkeakoulunkatu 6",
+        "postalCode": "33720",
+        "city": "Tampere",
+        "type": "FinnishAddress"
+      }
+    },
+    {
+      "metadata": {
+        "createdOn": "2019-04-03T13:27:22.312",
+        "lastModifiedOn": "2019-04-03T13:27:22.312",
+        "modificationOrdinal": 130978786
+      },
+      "documentState": "ACTIVE",
+      "id": "tuni-building-linna",
+      "name": {
+        "fi": "LINNA"
+      },
+      "address": {
+        "countryUrn": "urn:code:country:246",
+        "isUserEditable": false,
+        "streetAddress": "Kalevantie 5",
+        "postalCode": "33100",
+        "city": "Tampere",
+        "type": "FinnishAddress"
+      }
+    },
+    
+    {
+      "metadata": {
+        "createdOn": "2019-04-03T13:27:22.313",
+        "lastModifiedOn": "2019-04-03T13:27:22.313",
+        "modificationOrdinal": 130978787
+      },
+      "documentState": "ACTIVE",
+      "id": "tuni-building-paakampus",
+      "name": {
+        "fi": "PÄÄKAMPUS"
+      },
+      "address": {
+        "countryUrn": "urn:code:country:246",
+        "isUserEditable": false,
+        "streetAddress": "Kuntokatu 3",
+        "postalCode": "33520",
+        "city": "Tampere",
+        "type": "FinnishAddress"
+      }
+    },
+    {
+      "metadata": {
+        "createdOn": "2019-04-03T13:27:22.314",
+        "lastModifiedOn": "2019-04-03T13:27:22.314",
+        "modificationOrdinal": 130978788
+      },
+      "documentState": "ACTIVE",
+      "id": "tuni-building-paarakennus",
+      "name": {
+        "fi": "PAARAKENNUS"
+      },
+      "address": {
+        "countryUrn": "urn:code:country:246",
+        "isUserEditable": false,
+        "streetAddress": "Korkeakoulunkatu 10",
+        "postalCode": "33720",
+        "city": "Tampere",
+        "type": "FinnishAddress"
+      }
+    },
+    {
+      "metadata": {
+        "createdOn": "2019-04-03T13:27:22.316",
+        "lastModifiedOn": "2020-06-02T14:40:00.821688",
+        "modificationOrdinal": 130978875
+      },
+      "documentState": "ACTIVE",
+      "id": "tuni-building-paatalo",
+      "name": {
+        "fi": "PÄÄTALO"
+      },
+      "address": {
+        "countryUrn": "urn:code:country:246",
+        "isUserEditable": false,
+        "streetAddress": "Kalevantie 4",
+        "postalCode": "33100",
+        "city": "Tampere",
+        "type": "FinnishAddress"
+      }
+    },
+    
+    {
+      "metadata": {
+        "createdOn": "2019-04-03T13:27:22.318",
+        "lastModifiedOn": "2019-04-03T13:27:22.318",
+        "modificationOrdinal": 130978789
+      },
+      "documentState": "ACTIVE",
+      "id": "tuni-building-pinni",
+      "name": {
+        "fi": "PINNI"
+      },
+      "address": {
+        "countryUrn": "urn:code:country:246",
+        "isUserEditable": false,
+        "streetAddress": "Kanslerinrinne 1",
+        "postalCode": "33100",
+        "city": "Tampere",
+        "type": "FinnishAddress"
+      }
+    },
+    {
+      "metadata": {
+        "createdOn": "2019-04-03T13:27:22.319",
+        "lastModifiedOn": "2019-04-03T13:27:22.319",
+        "modificationOrdinal": 130978790
+      },
+      "documentState": "ACTIVE",
+      "id": "tuni-building-pori",
+      "name": {
+        "fi": "PORI"
+      },
+      "address": {
+        "countryUrn": "urn:code:country:246",
+        "isUserEditable": false,
+        "streetAddress": "Pohjoisranta 11 A",
+        "postalCode": "28100",
+        "city": "Pori",
+        "type": "FinnishAddress"
+      }
+    },
+    {
+      "metadata": {
+        "createdOn": "2019-04-03T13:27:22.320",
+        "lastModifiedOn": "2019-04-03T13:27:22.320",
+        "modificationOrdinal": 130978791
+      },
+      "documentState": "ACTIVE",
+      "id": "tuni-building-rakennustalo",
+      "name": {
+        "fi": "RAKENNUSTALO"
+      },
+      "address": {
+        "countryUrn": "urn:code:country:246",
+        "isUserEditable": false,
+        "streetAddress": "Korkeakoulunkatu 5",
+        "postalCode": "33720",
+        "city": "Tampere",
+        "type": "FinnishAddress"
+      }
+    },
+    {
+      "metadata": {
+        "createdOn": "2019-04-03T13:27:22.321",
+        "lastModifiedOn": "2019-04-03T13:27:22.321",
+        "modificationOrdinal": 130978792
+      },
+      "documentState": "ACTIVE",
+      "id": "tuni-building-sahkotalo",
+      "name": {
+        "fi": "SAHKOTALO"
+      },
+      "address": {
+        "countryUrn": "urn:code:country:246",
+        "isUserEditable": false,
+        "streetAddress": "Korkeakoulunkatu 3",
+        "postalCode": "33720",
+        "city": "Tampere",
+        "type": "FinnishAddress"
+      }
+    },
+    
+    
+    {
+      "metadata": {
+        "createdOn": "2019-04-03T13:27:22.325",
+        "lastModifiedOn": "2019-04-03T13:27:22.325",
+        "modificationOrdinal": 130978793
+      },
+      "documentState": "ACTIVE",
+      "id": "tuni-building-tamppi-areena",
+      "name": {
+        "fi": "TAMPPI AREENA"
+      },
+      "address": {
+        "countryUrn": "urn:code:country:246",
+        "isUserEditable": false,
+        "streetAddress": "Korkeakoulunkatu 12",
+        "postalCode": "33720",
+        "city": "Tampere",
+        "type": "FinnishAddress"
+      }
+    },
+    {
+      "metadata": {
+        "createdOn": "2019-04-03T13:27:22.326",
+        "lastModifiedOn": "2019-04-03T13:27:22.326",
+        "modificationOrdinal": 130978794
+      },
+      "documentState": "ACTIVE",
+      "id": "tuni-building-tietotalo",
+      "name": {
+        "fi": "TIETOTALO"
+      },
+      "address": {
+        "countryUrn": "urn:code:country:246",
+        "isUserEditable": false,
+        "streetAddress": "Korkeakoulunkatu 1",
+        "postalCode": "33720",
+        "city": "Tampere",
+        "type": "FinnishAddress"
+      }
+    },
+    
+    
+    {
+      "metadata": {
+        "createdOn": "2019-04-03T13:27:22.329",
+        "lastModifiedOn": "2019-04-03T13:27:22.329",
+        "modificationOrdinal": 130978795
+      },
+      "documentState": "ACTIVE",
+      "id": "tuni-building-virta",
+      "name": {
+        "fi": "VIRTA"
+      },
+      "address": {
+        "countryUrn": "urn:code:country:246",
+        "isUserEditable": false,
+        "streetAddress": "Åkerlundinkatu 5",
+        "postalCode": "33100",
+        "city": "Tampere",
+        "type": "FinnishAddress"
+      }
+    }
+  ]

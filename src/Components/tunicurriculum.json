@@ -1,0 +1,891 @@
+[
+    {
+                "name": "Degree Programme in Business Information Systems, Tampere",
+                "status": "APPROVED",
+                "type": "PROGRAMME",
+                "credits": 210,
+                "code": "13TIKO",
+                "id": "22389"
+           
+            },
+            {
+                "name": "BASIC AND PROFESSIONAL STUDIES",
+                "luOptionality": "ALL_OF",
+                "type": "STUDY_MODULE",
+                "credits": 150,
+                "code": "13TIKO-1000",
+                "id": "22390"
+              
+            },
+            {
+              
+                "name": "Basic Skills for the ICT Field",
+                "luOptionality": "ALL_OF",
+                "type": "STUDY_MODULE",
+                "credits": 29,
+                "code": "13TIKO-1001",
+                "id": "22391"
+              
+            },
+            {
+              
+                "name": "Introduction to ICT Field and Team Work",
+                "type": "COURSE_UNIT",
+                "credits": 10,
+                "code": "4-PPO1",
+                "id": "6768"
+              },
+              
+           
+            {
+             
+                "name": "Computerised Logics",
+                "type": "COURSE_UNIT",
+                "credits": 3,
+                "code": "4-PPO2",
+                "id": "6767"
+             
+            },
+            {
+              
+                "name": "Operating Systems, Machine Technology and Information Security",
+                "type": "COURSE_UNIT",
+                "credits": 3,
+                "code": "4-PPO3",
+                "id": "6766"
+              
+            },
+            {
+              
+                "name": "Office Software and Document Management",
+                "type": "COURSE_UNIT",
+                "credits": 3,
+                "code": "4-PPO4",
+                "id": "6765"
+          
+            },
+            {
+             
+                "name": "Spreadsheet Calculation and Databases",
+                "type": "COURSE_UNIT",
+                "credits": 3,
+                "code": "4-PPO5",
+                "id": "6764"
+          
+            },
+            {
+              
+                "name": "Introduction to Networking",
+                "type": "COURSE_UNIT",
+                "credits": 4,
+                "code": "4-PPO6",
+                "id": "4350"
+            
+            },
+            {
+             
+          
+                "name": "Principles and Applications of Project Work",
+                "type": "COURSE_UNIT",
+                "credits": 3,
+                "code": "4-PPO7",
+                "id": "6576"
+             
+            },
+            {
+        
+                "name": "Product Development Project",
+                "luOptionality": "ALL_OF",
+                "type": "STUDY_MODULE",
+                "credits": 23,
+                "code": "13TIKO-1002",
+                "id": "22392"
+              
+              
+            },
+            {
+              
+                "name": "Managing an Agile ICT Project",
+                "type": "COURSE_UNIT",
+                "credits": 3,
+                "code": "4-PTK1",
+                "id": "6763"
+            
+            },
+            {
+          
+                "name": "Building Project Infrastructure",
+                "type": "COURSE_UNIT",
+                "credits": 3,
+                "code": "4-PTK2",
+                "id": "6762"
+              
+            },
+            {
+           
+                "name": "Digital Graphics",
+                "type": "COURSE_UNIT",
+                "credits": 3,
+                "code": "4-PTK3",
+                "id": "6761"
+           
+            },
+            {
+        
+                "name": "WWW Technologies",
+                "type": "COURSE_UNIT",
+                "credits": 3,
+                "code": "4-PTK4",
+                "id": "6575"
+            
+            },
+            {
+         
+                "name": "Introduction to Programming",
+                "type": "COURSE_UNIT",
+                "credits": 6,
+                "code": "4-PTK5",
+                "id": "6760"
+              
+            },
+            {
+    
+                "name": "Working Life Skills in the ICT Field",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-PTK6",
+                "id": "6759"
+             
+            },
+            {
+           
+                "name": "Languages and Communication",
+                "luOptionality": "ALL_OF",
+                "type": "STUDY_MODULE",
+                "credits": 14,
+                "code": "13TIKO-1003",
+                "id": "22393"
+              
+            },
+            {
+        
+                "name": "English",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-PKV1",
+                "id": "6622"
+             
+              
+            },
+            {
+
+                "name": "Swedish, Writing skills",
+                "type": "COURSE_UNIT",
+                "credits": 2,
+                "code": "4-PKV2",
+                "id": "6772"
+             
+            },
+            {
+             
+                "name": "Swedish, Spoken Skills",
+                "type": "COURSE_UNIT",
+                "credits": 1,
+                "code": "4-PKV5",
+                "id": "6771"
+         
+                
+            },
+            {
+             
+                "name": "Meeting and Negotiation Skills",
+                "type": "COURSE_UNIT",
+                "credits": 3,
+                "code": "4-PKV3",
+                "id": "6769"
+              
+            },
+            {
+             
+                "name": "Training and Communication Skills",
+                "type": "COURSE_UNIT",
+                "credits": 3,
+                "code": "4-PKV4",
+                "id": "6770"
+             
+            },
+            {
+     
+                "name": "Project and Service Business Skills",
+                "luOptionality": "ALL_OF",
+                "type": "STUDY_MODULE",
+                "credits": 20,
+                "code": "13TIKO-1016",
+                "id": "23072"
+              },
+             
+            {
+              
+                "name": "Managing ICT Projects",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-ALT1",
+                "id": "6574"
+              },
+             
+            {
+            
+                "name": "Business Models",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-ALT2",
+                "id": "6757"
+              },
+              
+            {
+             
+                "name": "Sales",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-ALT3",
+                "id": "6620"
+              
+            },
+            {
+    
+                "name": "Project: Developing ICT-Service",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-ALT4",
+                "id": "6573"
+              },
+            
+            {
+                "name": "R&D&I Methods",
+                "luOptionality": "ALL_OF",
+                "type": "STUDY_MODULE",
+                "credits": 10,
+                "code": "13TIKO-1018",
+                "id": "23074"
+              },
+             
+            {
+                "name": "Development Methods in Bachelor’s Thesis Work",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-AKM1",
+                "id": "6756"
+              },
+            
+            {
+                "name": "Research and Innovation Methods",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-AKM2",
+                "id": "6570"
+              },
+             
+            {
+                "name": "Specialisation",
+                "luOptionality": "ONE_OF",
+                "type": "STUDY_MODULE",
+                "credits": 40,
+                "code": "13TIKO-1020",
+                "id": "23076"
+              },
+             
+            {
+                "name": "Game Development",
+                "luOptionality": "ALL_OF",
+                "type": "STUDY_MODULE",
+                "credits": 40,
+                "code": "13TIKO-1021",
+                "id": "23077"
+              },
+              
+              
+            {
+                "name": "Game Analysis",
+                "type": "COURSE_UNIT",
+                "credits": 3,
+                "code": "4-AGD1",
+                "id": "4417"
+              },
+             
+            {
+                "name": "Browser Game Technologies",
+                "type": "COURSE_UNIT",
+                "credits": 4,
+                "code": "4-AGD2",
+                "id": "6619"
+              },
+              
+            {
+                "name": "Browser Game Project",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-AGD3",
+                "id": "6618"
+              },
+          
+            {
+                "name": "Game Design",
+                "type": "COURSE_UNIT",
+                "credits": 3,
+                "code": "4-AGD4",
+                "id": "4416"
+              },
+             
+            {
+                "name": "3D-modelling",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-AGD5",
+                "id": "6617"
+              },
+              
+            {
+                "name": "Mobile Game Technologies",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-AGD6",
+                "id": "6616"
+              },
+             
+            {
+                "name": "Mobile Game Project",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-AGD7",
+                "id": "6615"
+              },
+             
+            {
+                "name": "Usability",
+                "type": "COURSE_UNIT",
+                "credits": 3,
+                "code": "4-AOT1",
+                "id": "6667"
+              },
+              
+            {
+                "name": "Databases",
+                "type": "COURSE_UNIT",
+                "credits": 4,
+                "code": "4-AOT2",
+                "id": "6664"
+              },
+            
+              
+            {
+                "name": "Defining and Designing software",
+                "type": "COURSE_UNIT",
+                "credits": 3,
+                "code": "4-AOT3",
+                "id": "6572"
+              },
+            
+            {
+                "name": "Network Services",
+                "luOptionality": "ALL_OF",
+                "type": "STUDY_MODULE",
+                "credits": 52,
+                "code": "13TIKO-1022",
+                "id": "23078"
+              },
+            
+            {
+                "name": "Operating System Service Architectures",
+                "type": "COURSE_UNIT",
+                "credits": 15,
+                "code": "4-ATV1",
+                "id": "6614"
+              },
+            {
+                "name": "Routing Protocols and Concepts",
+                "type": "COURSE_UNIT",
+                "credits": 3,
+                "code": "4-ATV2",
+                "id": "6613"
+              },
+             
+            {
+                "name": "LAN Switching and Wireless",
+                "type": "COURSE_UNIT",
+                "credits": 3,
+                "code": "4-ATV3",
+                "id": "6612"
+              },
+             
+            {
+                "name": "Accessing the WAN and Network Implementation Project",
+                "type": "COURSE_UNIT",
+                "credits": 4,
+                "code": "4-ATV4",
+                "id": "6611"
+              },
+              
+            {
+                "name": "CCNA Security",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-ATV5",
+                "id": "6567"
+              },
+              
+            {
+                "name": "Implementing IP Routing",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-ATV6",
+                "id": "6610"
+              },
+             
+            {
+                "name": "Implementing IP Switching",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-ATV7",
+                "id": "6609"
+              },
+              
+            {
+                "name": "Routing and Switching Essentials",
+                "type": "COURSE_UNIT",
+                "credits": 4,
+                "code": "4A00CD93",
+                "id": "23532"
+              },
+             
+            {
+                "name": "Scaling Networks",
+                "type": "COURSE_UNIT",
+                "credits": 4,
+                "code": "4A00CD94",
+                "id": "23533"
+              },
+          
+            {
+                "name": "Connecting Networks",
+                "type": "COURSE_UNIT",
+                "credits": 4,
+                "code": "4A00CD95",
+                "id": "23534"
+              },
+              
+          
+            {
+                "name": "ICT services for the Health Care Industry",
+                "luOptionality": "ALL_OF",
+                "type": "STUDY_MODULE",
+                "credits": 40,
+                "code": "13TIKO-1023",
+                "id": "23079"
+              },
+           
+            {
+                "name": "Usability",
+                "type": "COURSE_UNIT",
+                "credits": 3,
+                "code": "4-AOT1",
+                "id": "6667"
+              },
+         
+            {
+                "name": "Databases",
+                "type": "COURSE_UNIT",
+                "credits": 4,
+                "code": "4-AOT2",
+                "id": "6664"
+              },
+           
+            {
+                "name": "Defining and Designing software",
+                "type": "COURSE_UNIT",
+                "credits": 3,
+                "code": "4-AOT3",
+                "id": "6572"
+              },
+           
+            {
+                "name": "Building a Dynamic Web Service",
+                "type": "COURSE_UNIT",
+                "credits": 6,
+                "code": "4-AOT7",
+                "id": "6608"
+              },
+       
+            {
+                "name": "Project: Implementing a Dynamic Web Service",
+                "type": "COURSE_UNIT",
+                "credits": 4,
+                "code": "4-AOT8",
+                "id": "6607"
+              },
+         
+            {
+                "name": "Service System in the Health Care and Becoming an ICT Professional of Health Care",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-ATH1",
+                "id": "6603"
+              },
+         
+            {
+                "name": "Electronic Patient Data Systems",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-ATH2",
+                "id": "6602"
+              },
+              
+            {
+                "name": "Information Transmission between Organisations in the Data Systems of Health Care",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-ATH3",
+                "id": "6601"
+              },
+            {
+                "name": "Medical Informatics",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-ATH4",
+                "id": "6600"
+              },
+        
+            {
+                "name": "Software Development",
+                "luOptionality": "ALL_OF",
+                "type": "STUDY_MODULE",
+                "credits": 40,
+                "code": "13TIKO-1024",
+                "id": "23080"
+              },
+            
+            {
+                "name": "Usability",
+                "type": "COURSE_UNIT",
+                "credits": 3,
+                "code": "4-AOT1",
+                "id": "6667"
+              },
+          
+            {
+                "name": "Databases",
+                "type": "COURSE_UNIT",
+                "credits": 4,
+                "code": "4-AOT2",
+                "id": "6664"
+              },
+         
+            {
+                "name": "Defining and Designing software",
+                "type": "COURSE_UNIT",
+                "credits": 3,
+                "code": "4-AOT3",
+                "id": "6572"
+          
+            },
+            {
+                "name": "Object Oriented Programming",
+                "type": "COURSE_UNIT",
+                "credits": 6,
+                "code": "4-AOT4",
+                "id": "6571"
+              },
+          
+            {
+                "name": "Programming Graphic User Interface",
+                "type": "COURSE_UNIT",
+                "credits": 3,
+                "code": "4-AOT5",
+                "id": "6604"
+              },
+        
+            {
+                "name": "Project: Building Software",
+                "type": "COURSE_UNIT",
+                "credits": 4,
+                "code": "4-AOT6",
+                "id": "6605"
+              },
+         
+            {
+                "name": "Building a Dynamic Web Service",
+                "type": "COURSE_UNIT",
+                "credits": 6,
+                "code": "4-AOT7",
+                "id": "6608"
+              },
+           
+            {
+                "name": "Project: Implementing a Dynamic Web Service",
+                "type": "COURSE_UNIT",
+                "credits": 4,
+                "code": "4-AOT8",
+                "id": "6607"
+              },
+          
+            {
+                "name": "Mobile Programming 1",
+                "type": "COURSE_UNIT",
+                "credits": 7,
+                "code": "4-AOT9",
+                "id": "6606"
+              },
+          
+            {
+                "name": "Elective Professional Studies",
+                "luOptionality": "SOME_OF",
+                "type": "STUDY_MODULE",
+                "credits": 14,
+                "code": "13TIKO-1025",
+                "id": "23081"
+              },
+         
+            {
+                "name": "Maintaining and Troubleshooting IP Networks",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-ATV8",
+                "id": "6599"
+              },
+           
+            {
+                "name": "Introduction to Open Source Operating Systems",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-ATV9",
+                "id": "6598"
+              },
+            
+            {
+                "name": "Open Source OS Services",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-ATV10",
+                "id": "6597"
+              },
+           
+            {
+                "name": "Managing Information Risks in an Enterprise",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-ATV11",
+                "id": "6596"
+              },
+         
+            {
+                "name": "Integrated Data Network Services in an Enterprise",
+                "type": "COURSE_UNIT",
+                "credits": 6,
+                "code": "4-ATV12",
+                "id": "6595"
+              },
+           
+            {
+                "name": "Copyrights",
+                "type": "COURSE_UNIT",
+                "credits": 3,
+                "code": "4-AVA6",
+                "id": "6594"
+              },
+          
+            {
+                "name": "Following Media",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-AVA7",
+                "id": "6593"
+              },
+            
+            {
+                "name": "3D Game Graphics and Animation",
+                "type": "COURSE_UNIT",
+                "credits": 4,
+                "code": "4-AGD8",
+                "id": "6592"
+              },
+            
+            {
+                "name": "Console Game Technologies",
+                "type": "COURSE_UNIT",
+                "credits": 6,
+                "code": "4-AGD9",
+                "id": "6591"
+              },
+            
+            {
+                "name": "Project: Console Game",
+                "type": "COURSE_UNIT",
+                "credits": 7,
+                "code": "4-AGD10",
+                "id": "6590"
+              },
+           
+            {
+                "name": "Interactive Project",
+                "type": "COURSE_UNIT",
+                "credits": 10,
+                "code": "4-AGD11",
+                "id": "6589"
+              },
+         
+            {
+                "name": "New Trends in Digital Media",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-AGD12",
+                "id": "6587"
+              },
+          
+            {
+                "name": "Demola Project",
+                "type": "COURSE_UNIT",
+                "credits": 10,
+                "code": "4-ADML",
+                "id": "6588"
+              },
+          
+            {
+                "name": "Producing an Internet Service",
+                "type": "COURSE_UNIT",
+                "credits": 4,
+                "code": "4-AOT10",
+                "id": "6586"
+              },
+           
+            {
+                "name": "Software Testing",
+                "type": "COURSE_UNIT",
+                "credits": 3,
+                "code": "4-AOT11",
+                "id": "6585"
+              },
+          
+            {
+                "name": "Version Control in Software Production",
+                "type": "COURSE_UNIT",
+                "credits": 3,
+                "code": "4-AOT12",
+                "id": "6584"
+              },
+          
+            {
+                "name": "Project: Software Publishing",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-AOT13",
+                "id": "6583"
+              },
+           
+            {
+                "name": "Mobile Programming 2",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-AOT14",
+                "id": "6582"
+              },
+           
+            {
+                "name": "New Trends in Software Production",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-AOT15",
+                "id": "6581"
+              },
+          
+            {
+                "name": "Server Programming",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-AOT16",
+                "id": "6580"
+              },
+            
+            {
+                "name": "Expanding Programming Skills",
+                "type": "COURSE_UNIT",
+                "credits": 5,
+                "code": "4-AOT17",
+                "id": "6579"
+              },
+              
+            {
+                "name": "Game Programming",
+                "type": "COURSE_UNIT",
+                "credits": 3,
+                "code": "4-00CC73",
+                "id": "22977"
+              },
+               {
+                "name": "Floworks Projects",
+                "type": "COURSE_UNIT",
+                "credits": 6,
+                "code": "4A00CI75",
+                "id": "24306"
+              },
+             
+            {
+                "name": "Project Studies 1",
+                "type": "COURSE_UNIT",
+                "credits": 6,
+                "code": "4A00CI76",
+                "id": "24307"
+              },
+             
+            {
+                "name": "Implementing Web-application with Javascript Framework",
+                "type": "COURSE_UNIT",
+                "credits": 3,
+                "code": "4A00CP09",
+                "id": "25778"
+              },
+              
+            {
+                "name": "ELECTIVE STUDIES",
+                "luOptionality": "SOME_OF",
+                "type": "STUDY_MODULE",
+                "credits": 15,
+                "code": "13TIKO-1012",
+                "id": "22402"
+              },
+              
+            {
+                "name": "PRACTICAL TRAINING",
+                "luOptionality": "ALL_OF",
+                "type": "STUDY_MODULE",
+                "credits": 30,
+                "code": "13TIKO-1013",
+                "id": "22403"
+              },
+             
+            {
+                "name": "Practical Training",
+                "type": "COURSE_UNIT",
+                "credits": 30,
+                "code": "4-AHA",
+                "id": "6621"
+              },
+           
+            {
+                "name": "BACHELOR'S THESIS",
+                "luOptionality": "ALL_OF",
+                "type": "STUDY_MODULE",
+                "credits": 15,
+                "code": "13TIKO-1014",
+                "id": "22404"
+              },
+           
+            {
+                "name": "Bachelor’s Thesis",
+                "type": "COURSE_UNIT",
+                "credits": 15,
+                "code": "4-AON",
+                "id": "6758"
+              }
+          
+        
+    
+  ]

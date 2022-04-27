@@ -10,6 +10,8 @@ import {Route, Switch, Redirect} from "react-router-dom";
 import PlacesToSee  from "./Components/PlacesToSee";
 import PlacesToEat from "./Components/PlacesToEat";
 import Navbar from "./Navbar";
+import Schoolinfo from "./Components/Schoolinfo";
+import Curriculum from "./Components/Curriculum";
 
 const App = () => {
   return (
@@ -22,6 +24,8 @@ const App = () => {
       <Route exact path="/contact"  component={Contact} />
       <Route exact path="/PlacesToSee" component={PlacesToSee}/>
       <Route exact path="/PlacesToEat" component={PlacesToEat}/>
+      <Route exact path="/schoolinfo"  component={Schoolinfo} />
+      <Route exact path="/curriculum"  component={Curriculum} />
       <Redirect to="/" />
       <Home />
     </Switch>
