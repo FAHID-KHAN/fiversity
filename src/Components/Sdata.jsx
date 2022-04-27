@@ -10,7 +10,7 @@ const Sdata = [
   {
     imgsrc: school,
     title: "School Information",
-    link: "/curriculum",
+
   },
   {
     imgsrc: house,
