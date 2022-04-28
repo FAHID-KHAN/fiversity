@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <>
+    <div data-testid="footer">
       <footer className="w-100 bg-light text-center ">
         <p>
           {" "}
@@ -10,7 +10,7 @@ const Footer = () => {
           Conditions
         </p>
       </footer>
-    </>
+    </div>
   );
 };
 

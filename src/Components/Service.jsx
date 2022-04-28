@@ -14,7 +14,7 @@ import PlacesToSee from "./PlacesToSee";
 
 const Service = () => {
   return (
-    <div>
+    <div data-testid="service">
       <div style={{ marginTop: "50px" , marginBottom:"20px"}}>
         <h2 style={{ color: "Blues", padding: "10px", textAlign: "center" , paddingBottom:"3rem"}}>
           Fiversity Services

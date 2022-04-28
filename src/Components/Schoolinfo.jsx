@@ -1,8 +1,7 @@
 import React from "react";
 import building from './sisu_building.json'
 import 'bootstrap/dist/css/bootstrap.css';
-import ListGroup from 'react-bootstrap/ListGroup';
-import ListGroupItem from "react-bootstrap/esm/ListGroupItem";
+
 import Common from "../common";
 import { Row, Col, Card } from "react-bootstrap";
 

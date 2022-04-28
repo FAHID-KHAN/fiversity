@@ -27,7 +27,7 @@ const Contact = () => {
     );
   };
   return (
-    <>
+    <div data-testid="contact">
       <div className="my-5">
         <h1 className="text-center"> Contact Us</h1>
       </div>
@@ -98,7 +98,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
