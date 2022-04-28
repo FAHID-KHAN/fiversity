@@ -66,6 +66,24 @@ const Navbar = () => {
                         Contact
                       </NavLink>
                     </li>
+                    <li className="nav-item">
+                      <NavLink
+                        activeClassName="menu-active"
+                        className="nav-link"
+                        to="/PlacesToSee"
+                      >
+                        Explore
+                      </NavLink>
+                    </li>
+                    <li className="nav-item">
+                      <NavLink
+                        activeClassName="menu-active"
+                        className="nav-link"
+                        to="/PlacesToEat"
+                      >
+                        Nearby-Resturants
+                      </NavLink>
+                    </li>
                     
                   </ul>
                 </div>
