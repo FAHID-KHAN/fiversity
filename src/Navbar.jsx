@@ -66,42 +66,7 @@ const Navbar = () => {
                         Contact
                       </NavLink>
                     </li>
-                    <li className="nav-item">
-                      <NavLink
-                        activeClassName="menu-active"
-                        className="nav-link"
-                        to="/PlacesToSee"
-                      >
-                        Explore
-                      </NavLink>
-                    </li>
-                    <li className="nav-item">
-                      <NavLink
-                        activeClassName="menu-active"
-                        className="nav-link"
-                        to="/PlacesToEat"
-                      >
-                        Nearby-Resturants
-                      </NavLink>
-                    </li>
-                    <li className="nav-item">
-                      <NavLink
-                        activeClassName="menu_active"
-                        className="nav-link"
-                        to="/schoolinfo"
-                      >
-                        Schoolinfo
-                      </NavLink>
-                    </li>
-                    <li className="nav-item">
-                      <NavLink
-                        activeClassName="menu_active"
-                        className="nav-link"
-                        to="/curriculum"
-                      >
-                        TuniCurriculum
-                      </NavLink>
-                    </li>
+                    
                   </ul>
                 </div>
               </div>
